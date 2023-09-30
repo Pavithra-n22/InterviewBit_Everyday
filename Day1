@@ -1,0 +1,26 @@
+Stdin Stdout
+
+import java.lang.*;
+import java.util.*;
+
+class Main{
+    public static void main(String args[])
+    {
+    Scanner sc= new Scanner(System.in);
+    
+    
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    sc.close();
+   
+    System.out.println (a);
+    System.out.println(b);
+    
+    }
+        // YOUR CODE GOES HERE
+        // Please take input and print output to standard input/output (stdin/stdout)
+        // DO NOT USE ARGUMENTS FOR INPUTS
+        // E.g. 'Scanner' for input & 'System.out' for output
+    
+    
+}
